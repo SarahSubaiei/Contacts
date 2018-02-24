@@ -19,7 +19,7 @@ class ContactsTableViewController: UITableViewController {
         navigationItem.leftBarButtonItem = moveButton
         
         
-       
+        //stuffad,fnlakdf;dsfgsfdgsfgs
         
         let jenny = Contact(phoneNumber: "867-5309")
         let rich = Contact(name:"Rich", phoneNumber: "888-888-8888")
