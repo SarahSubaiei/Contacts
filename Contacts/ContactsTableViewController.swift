@@ -18,9 +18,8 @@ class ContactsTableViewController: UITableViewController {
         let moveButton = UIBarButtonItem(barButtonSystemItem: .edit, target: self, action: #selector(ContactsTableViewController.toggleEdit))
         navigationItem.leftBarButtonItem = moveButton
         
-        @objc func toggleEdit() {
-            tableView.setEditing(!tableView.isEditing, animated: true)
-        }
+        
+       
         
         let jenny = Contact(phoneNumber: "867-5309")
         let rich = Contact(name:"Rich", phoneNumber: "888-888-8888")
@@ -42,7 +41,10 @@ class ContactsTableViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @objc func toggleEdit() {
+        tableView.setEditing(!tableView.isEditing, animated: true)
+    }
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
