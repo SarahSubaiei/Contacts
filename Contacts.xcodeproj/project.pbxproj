@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2616297720385C59001473FA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2616297620385C59001473FA /* DetailViewController.swift */; };
 		2684CC12202F18C00083CAB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684CC11202F18C00083CAB3 /* AppDelegate.swift */; };
-		2684CC14202F18C00083CAB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684CC13202F18C00083CAB3 /* ViewController.swift */; };
 		2684CC17202F18C00083CAB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2684CC15202F18C00083CAB3 /* Main.storyboard */; };
 		2684CC19202F18C00083CAB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2684CC18202F18C00083CAB3 /* Assets.xcassets */; };
 		2684CC1C202F18C00083CAB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2684CC1A202F18C00083CAB3 /* LaunchScreen.storyboard */; };
+		2684CC24202F1C580083CAB3 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684CC23202F1C580083CAB3 /* ContactsTableViewController.swift */; };
+		2684CC28202F27660083CAB3 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684CC27202F27660083CAB3 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2616297620385C59001473FA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		2684CC0E202F18C00083CAB3 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2684CC11202F18C00083CAB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2684CC13202F18C00083CAB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2684CC16202F18C00083CAB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2684CC18202F18C00083CAB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2684CC1B202F18C00083CAB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2684CC1D202F18C00083CAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2684CC23202F1C580083CAB3 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		2684CC27202F27660083CAB3 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				2684CC11202F18C00083CAB3 /* AppDelegate.swift */,
-				2684CC13202F18C00083CAB3 /* ViewController.swift */,
 				2684CC15202F18C00083CAB3 /* Main.storyboard */,
+				2616297620385C59001473FA /* DetailViewController.swift */,
+				2684CC27202F27660083CAB3 /* Contact.swift */,
+				2684CC23202F1C580083CAB3 /* ContactsTableViewController.swift */,
 				2684CC18202F18C00083CAB3 /* Assets.xcassets */,
 				2684CC1A202F18C00083CAB3 /* LaunchScreen.storyboard */,
 				2684CC1D202F18C00083CAB3 /* Info.plist */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2684CC14202F18C00083CAB3 /* ViewController.swift in Sources */,
 				2684CC12202F18C00083CAB3 /* AppDelegate.swift in Sources */,
+				2616297720385C59001473FA /* DetailViewController.swift in Sources */,
+				2684CC28202F27660083CAB3 /* Contact.swift in Sources */,
+				2684CC24202F1C580083CAB3 /* ContactsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
