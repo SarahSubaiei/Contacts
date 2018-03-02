@@ -71,7 +71,16 @@ class ContactsTableViewController: UITableViewController {
         }
         return cell
     }
-    
+    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCellEditingStyle {
+        if tableView.isEditing{
+            return.none
+        }else{
+            return.delete
+        }
+    }
+    override func tableView(_ tableView: UITableView, shouldIndentWhileEditingRowAt indexPath: IndexPath) -> Bool {
+        return false
+    }
 
     /*
     // Override to support conditional editing of the table view.
@@ -95,12 +104,13 @@ class ContactsTableViewController: UITableViewController {
     }
 
 
-    /*
-    // Override to support rearranging the table view.
+    
+    
     override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
+let contactMoving = contacts.remove(at: fromIndexPath.row)
+        contacts.insert(contactMoving, at: to.row)
     }
-    */
+ 
 
     /*
     // Override to support conditional rearranging of the table view.
